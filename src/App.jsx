@@ -306,7 +306,7 @@ function NoteListScreen({ folder, allFolders, notes, onBack, onOpenNote, onNewNo
         background:"rgba(0,0,0,.88)",backdropFilter:"blur(20px)",
         borderTop:`1px solid ${C.divider}`,
         display:"flex",justifyContent:"center",alignItems:"center",
-        padding:"10px 28px 32px",position:"fixed",
+        padding:"10px 28px 32px",
       }}>
         <span style={{fontSize:14,color:C.textMuted}}>{visible.length} Note{visible.length!==1?"s":""}</span>
         {!trashView&&(
